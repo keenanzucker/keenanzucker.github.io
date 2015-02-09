@@ -61,6 +61,11 @@
 		line-height: 1.25em;
 	}
 
+	.headshot {
+		width: 300px;
+		height: auto;
+	}
+
 	strong, b {
 		font-weight: 900;
 		color: inherit;

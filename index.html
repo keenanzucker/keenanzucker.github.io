@@ -1,182 +1,448 @@
-<!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Keenan Zucker</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-normal.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<header id="header">
+<head>
 
-				<!-- Logo -->
-					<h1 id="logo">Keenan Zucker</h1>
-					<link rel = "shortcut icon" href = "images/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About Me</a></li>
-							<li><a href="#two">What I Do</a></li>
-							<li><a href="#work">Portfolio</a></li>
-							<li><a href="#contact">Contact</a></li>
-							<li><a href="ZuckerResume.pdf" target="newtab">Resume</a></li>
-						</ul>
-					</nav>
+    <title>Keenan</title>
 
-			</header>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content container 75%">
-					<header>
-						<h2>Hi! I'm Keenan Zucker</h2>
-					</header>
-					<img class = "headshot" src="images/headshot2.jpg">
-					<p>I'm an engineering student at <strong><a href = "http://www.olin.edu/">Olin College of Engineering</a></strong>. This site is about me and a showcase of my work.</a></p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>About Me</h2>
-					</header>
-					<p>I'm a self-motivated engineer and designer from Mountain View, California. I'm interested in Product Design as well as Software. I'm currently searching for a summer internship to learn and contribute. My other interests include soccer, longboarding, backpacking, traveling, and music.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I Do</h2>
-					</header>
-					<p>I like to get my hands dirty. I've embraced Olin's do-learn mentality and project-based learning style. I try to attend as many hackathons as I can in the Boston area, and try to learn as much as I can about all aspects of technology.  </p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+<body id="page-top" class="index">
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content container">
-					<header>
-						<h2>Portfolio</h2>
-						<p>This is a collection of my favorite projects. </p>
-					</header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Keenan Zucker</a>
+            </div>
 
-					<!-- Lightbox Gallery  -->
-						<div class="container 75% gallery">
-							<div class="row 0% images">
-								<div class="5u"><a href="images/EXPOPoster-1.png" class="image fit from-left"><img src="images/glove1.jpg" title="Hashtag Gloves: We attended and got third place at HackHolyoke. We created voice recognizing gloves that would tweet your words when tapped together in a 'hashtag' motion. Wrote backend in Python, used Arduino to connect to computer." alt="" /></a></div>
-								<div class="5u -2u"><a href="images/MyHub2Strain.PNG" class="image fit from-right"><img src="images/MyHub2Strain.PNG" title="Rear Hubs for MiniBaja off-road vehicle. I personally designed in SolidWorks, ran Finite Element Analysis, and fabricated hubs." alt="" /></a></div>
-								
-							</div>
-							<div class="row 0% images">
-								
-								<div class="5u"><a href="images/ScreenshotEmergenCT.png" class="image fit from-left"><img src="images/ScreenshotEmergenCT.png" title="During a Stanford Bioengineering Bootcamp, I helped design, CAD, and 3D print a model for an ambulance with a CT scanner built in to better aid emergency victims, in particular stroke victims. " alt="" /></a></div>
-								<div class="5u -2u"><a href="images/hopperR.JPG" class="image fit from-right"><img src="images/hopperS.JPG" title="Designed and fabricated a hopper toy for Design Nature class. Could only store three Joules of energy, and used limited supplies. Had to trigger after half-second delay. Height achieced was between 1.5-2 meters. "alt="" /></a></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="img/resume.pdf" target = "_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-								
-							</div>
-							<div class="row 0% images">
-								<div class="5u"><a href="images/Poster-1.png" class="image fit from-left"><img src="images/JawOpen.PNG" title="We built a Bear Transporter Toy created for  Design Nature class. It was built under $50 budget and graded by 75 fourth graders during demo day." alt="" /></a></div>
-								<div class="5u -2u"><a href="images/IbuPoster-1.png" class="image fit from-right"><img src="images/Ibu.png" title="Modelling and Simulation project on Ibuprofen efficacy with different levels of food consumption. Used Matlab to run simulations." alt="" /></a></div>
-								
-								
-							</div>
-						</div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive img-circle" src="img/headshot.jpg" alt="" style="width:150px">
+                    <div class="intro-text">
+                        <span class="name">Keenan Zucker</span>
+                        <span class="skills">Engineer | Designer | Artist</span>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-				</div>
-			</section>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="padding:20px">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Funnl</h3>
+                            </div>
+                        </div>
+                        <img src="img/funnl.png" class="img-responsive" alt=""style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Hashtag Gloves<h3>
+                            </div>
+                        </div>
+                        <img src="img/hashtagGlove.jpg" class="img-responsive" alt=""  style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Uber Instant</h3>
+                            </div>
+                        </div>
+                        <img src="img/uberInstantLogo.png" class="img-responsive" alt=""style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://www.behance.com/keenanzucker" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Graphic Design</h3>
+                            </div>
+                        </div>
+                        <img src="img/Day87.png" class="img-responsive" alt=""style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>SLAC</h3>
+                            </div>
+                        </div>
+                        <img src="img/slacLogo.png" class="img-responsive" alt=""style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Olin Baja</h3>
+                            </div>
+                        </div>
+                        <img src="img/baja.jpg" class="img-responsive" alt=""style="height:250px; width:400px; overflow:hidden">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content container">
-					<header>
-						<h2>Say Hello.</h2>
-						<p>I'd be happy to discuss any job offers, questions, details, or projects. </p>
-					</header>
-					<!--<div class="box container 75%">-->
-					<ul class="actions">
-						<h2>
-							<li><a href="mailto:Keenan.Zucker@students.olin.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/keenanzucker" class="icon fa-github"><span class="label">GitHub+</span></a></li>
-						</h2>
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I'm a sophomore engineering student at <a href="http://www.olin.edu">Olin College</a> studying Computer Science and Design. My hobbies include soccer, travelling, longboarding, music, and adventures. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>I'm currently working for the college as a Resident Resource. Last summmer, I interned for <a href="http://www.nvidia.com/page/home.html">Nvidia</a> as a Performance Analyst. </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</ul>
-			
-					
-					<!-- Contact Form -->
-							<!--<form method="post" action="Keenan.Zucker@students.olin.edu">
-								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="email" name="email" placeholder="Email" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>-->
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-12">
+                        <h3>Get in Contact!</h3>
+                        <ul class="list-inline">
 
-					</div>
-				</div>
-			</section>
+                            <li>
+                                <a href="mailto:Keenan.Zucker@students.olin.edu" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://linkedin.com/in/keenanzucker" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/keenanzucker" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://behance.com/keenanzucker" class="btn-social btn-outline"><i class="fa fa-fw fa-behance"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://instagram.com/keenangineer" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-		
+    <!--  Footer -->
 
-		<!-- Footer -->
-			<footer id="footer">
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; keenanzucker.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-				<!-- Icons -->
-					<!--<ul class="actions">
-						<li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/keenanzucker" class="icon fa-github"><span class="label">GitHub+</span></a></li>
-						<li><a href="https://www.facebook.com/keenan.zucker" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="http://instagram.com/keenanzuck/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>-->
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
-				<!-- Menu -->
-					<<ul class="menu">
-						<li>&copy; Keenan Zucker</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
 
-			</footer>
 
-	</body>
+
+
+
+
+
+
+
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Funnl</h2>
+                            <img src="img/funnl.png" class="img-responsive img-centered" alt="">
+                            <p>Funnl is an ongoing web app, first developed at HackMIT. We believed that reading news is important, but too often are we stuck re-reading background information that all of our favorite news site all share. We want the unique content, but don't want to click through ten different news outlets to get it. So we developed <strong>Funnl</strong>, a webapp that aggregates the unique content across news sources and diplays it in an intuitive way for an efficient reading experience. Written in Flask, but currently in progress to switch to a Node.js app for better scalability.</p>
+                            <ul class="list-inline item-details">
+                                <li>View:
+                                    <strong><a href="http://funnl.me">Work in Progress</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>#Hashtag Gloves</h2>
+                            <a href="https://github.com/phuston/HashtagGlove"><img src="img/hashtagGloves.jpg" class="img-responsive img-centered" alt=""></a>
+                            <p>Features on national news sites, #Hashtag Gloves was a hackathon project that went viral. We developed Twitter-integrated gloves that would use voice recognition to 'tweet' whatever you said when you tapped your fingers together twice in the 'hashtag' sign. Inspired by a Jimmy Fallon sketch, we won 3rd place at HackHolyoke in the Fall of 2014. Used Twitter and Google Voice APIs</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="http://www.dailydot.com/technology/hashtag-gloves-send-tweets/">DailyDot</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a href="http://www.today.com/money/jimmy-fallon-inspires-college-kids-invent-hashtag-gloves-1D80337731">Today.com</a>
+                                    </strong>
+                                </li>
+                                   <li>
+                                    <strong><a href="http://www.buzzfeed.com/juliegerstein/these-colllege-kids-made-gloves-thatll-tweet-for-you#.feaWXD8xP">Buzzfeed</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a href="http://gizmodo.com/hashtag-gloves-1666133010">Gizmodo</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Uber Instant</h2>
+                            <img src="img/uberInstant.png" class="img-responsive img-centered" alt="">
+                            <p>Uber Instant was a project for HackHolyoke Spring 2015. We developed a physical Uber interface that used an Arduino, LCD screen, and buttons to connect to the Uber API. When the buttons were pressed, we used voice recognition software to detect the destination the user wanted to get to, and then called an Uber to their current location. The LCD screen displayed the information about the ride, including destination, time until the Uber arrived, and the cost of the ride. We won 2nd place at the Hackathon!</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="http://uberhackathon.devpost.com/submissions/37061-uber-instant">ChallengePost</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a href="https://github.com/segerphilip/UberInstant">Github</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Stay Late and Create</h2>
+                            <img src="img/slacLogo.png" class="img-responsive img-centered" alt="">
+                            <p>Stay Late and Create is an on-campus organization. I'm a part of the leadership team. Our mission: SLAC creates the space and environment to foster Olin’s project-based culture. Through learning, teaching, and exploration, students broaden their skillsets, perspectives, and sense of community.</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="http://www.slac.io">SLAC</a>
+                                    </strong>
+                                </li>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Olin Baja</h2>
+                            <img src="img/baja.jpg" class="img-responsive img-centered" alt="">
+                            <p>Olin Baja is a student run project team that competes in international MiniBaja SAE competitions. Last year at competition, I raced the car in Maryland as well as one of the primary team welders. Currently working on a rebranding effort as well as developing a whole new website writting in Node.js/Angular/MongoDB rather than the old one written in Flask.</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="http://www.olinbaja.com">Website</a>
+                                    </strong>
+                                </li>>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
 </html>

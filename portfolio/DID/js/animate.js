@@ -1,42 +1,30 @@
-
-
-// 1 second
 sound0 = document.getElementById('sound0');
 sound0.load();
 
-// 0.02 second
 sound1 = document.getElementById('sound1');
 sound1.load();
 
-// 1 second
 sound2 = document.getElementById('sound2');
 sound2.load();
 
-// 1 second
 sound3 = document.getElementById('sound3');
 sound3.load();
 
-// 1 second
 sound4 = document.getElementById('sound4');
 sound4.load();
 
-// 1 second
 sound5 = document.getElementById('sound5');
 sound5.load();
 
-// 1 second
 sound6 = document.getElementById('sound6');
 sound6.load();
 
-// 1 second
 sound7 = document.getElementById('sound7');
 sound7.load();
 
-// 1 second
 sound8 = document.getElementById('sound8');
 sound8.load();
 
-// 1 second
 sound9 = document.getElementById('sound9');
 sound9.load();
 
@@ -48,6 +36,8 @@ soundSpace.load();
 var colors = ["#594F4F", "#547980", "#45ADA8", "#9DE0AD", "#E5FCC2"];
 
 $(document).ready(function(){
+
+  $(".fade").fadeIn(1000).delay(5000).fadeOut(3000);
 
   $(document).keypress(function(e){
 
@@ -130,10 +120,6 @@ $(document).ready(function(){
       }, 1000);
     }
 
-
-
-
-
     if(e.which==32){
        var choice = Math.floor(Math.random() * 4);
 
@@ -143,15 +129,5 @@ $(document).ready(function(){
 
 
   });
-
-
-  // $(document).keyup(function(e){
-  //   if(e.which==48){
-  //     $('#div0').removeClass('zero');
-  //   }
-  // });
-
-
-
 
 }); 

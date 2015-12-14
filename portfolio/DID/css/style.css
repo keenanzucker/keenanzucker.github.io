@@ -13,6 +13,7 @@ h2 {
   font-size: 18px;
   color: #FFFFFF;
   font-family: sans-serif;
+  display: none;
 }
 
 h6 {
@@ -20,6 +21,13 @@ h6 {
   font-size: 14px;
   color: #FFFFFF;
   font-family: sans-serif;
+  display: none;
+}
+
+.about-container {
+  padding: 5%;
+  font-family: Helvetica;
+
 }
 
 .container {

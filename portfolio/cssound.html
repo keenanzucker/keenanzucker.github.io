@@ -10,24 +10,25 @@
 <!-- Favicons
     ================================================== -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
 
 <!-- Slider
     ================================================== -->
-<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+<link href="../css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="../css/owl.theme.css" rel="stylesheet" media="screen">
 
 <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css"  href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -39,54 +40,40 @@
     ==========================================-->
 <nav id="menu" class="navbar navbar-default">
   <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html">Keenan Zucker</a> </div>
+      <a class="navbar-brand" href="../index.html">Keenan Zucker</a> </div>
     
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="../index.html">Portfolio</a></li>
+        <li><a href="../about.html">About</a></li>
         <li><a href="mailto:keenan.zucker@students.olin.edu" class="page-scroll">Contact</a></li>
 
       </ul>
     </div>
-    <!-- /.navbar-collapse --> 
   </div>
-  <!-- /.container-fluid --> 
 </nav>
 
+<div class="text-center">
+  <div class="portfolio-text">
+    <h1>CCSound: A Dynamic Interface Design Final Project</h1>
+    <h2>Fall 2015</h2>
+    <h3>Please click the image below to experience the project</h3>
+    <a href="../portfolio/DID/index.html" target="_blank"><img src="../img/portfolio/cssound.png" class="img-responsive" style="height:400px" ></a>
+    <p>CSSound my final project for Dynamic Interface Design at Wellesley College Fall 2015. After doing my first two major projects using Flash Animation, I wanted to do something different for my final. Fortunately, we were given creative flexibility and I decided I wanted to learn a new skill. </p>
 
+    <p>The concept is simple, each of the number keys, 0-9, as well as the space bar, are mapped to an animation and a sound. This creates a pleasant yet surprising audio-visual experience. Each animation is set to 50% opacity, creating an overlaying effect of the animations as multiple keys can be pressed in succession to make patterns and artistic effects. The space bar changes the background color, changing the feel of the piece.</p>
 
-<div class="text-center" name="home">
-    <div class="about-text col-md-6">
-       <p>Hi, I'm Keenan, a sophomore engineering student at Olin College in Needham, Massachusetts. I'm studying Software Product Design, a major I self-designed. It combines a fundamental Computer Science core with a Interaction and User Experience emphasis. 
-       </p>
-       <p>
-        Last summer, I interned for NVIDIA in the Performance Laboratory. I'm currently working as a Resident Resource for Olin College, part of the leadership team on the Olin Baja project team, on the board of Olin's Stay Late and Create (SLAC) organization. 
-       </p>
-       <p >
-          In my free time, I enjoy soccer, longboarding, travelling, volleyball, music, and adventures. 
-       </p>
-    </div>
-      <div class='about-text col-md-6'>
-        <img src="img/me/keenan.jpg" class="img-responsive about-image">
+     <p>I achieved this project using primarily CSS animations and JQuery. I found the sounds for free on SoundSwap, and wanted electronic drum sounds yet still ambient. I worked to develop the animations using CSS transitions with the different ‘div’ elements in the HTML. Each key press triggers the adding of a CSS class to the ‘div,’ which then delays waiting for the animation to finish, then removes the class. This was achieved using JQuery. I initially load all of the sounds to prevent from too much lag when the keys are pressed. </p>
+      <div class="item-links">
+        <ul>
+          <li><a href="https://github.com/keenanzucker/keenanzucker.github.io/tree/master/portfolio/DID" class="btn btn-default">Project Repo</a> </li>
+        </ul>
       </div>
 
-    <div class = "resume">
-      <a href="img/ZuckerResume2015.pdf" class="btn btn-default btn-lg" target="_blank">My Resume</a> 
-    </div> 
-
-    
+    </div>
 </div>
-
- 
-
-
-
-
 
 <div id="social-section">
   <div class="container">

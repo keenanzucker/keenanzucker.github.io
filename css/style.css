@@ -157,6 +157,7 @@ hr {
 .resume{
 	padding: 2%;
 	position: relative;
+	text-align: center;
 }
 
 /*==============================*/
@@ -331,7 +332,7 @@ ol.type li a:hover {
 }
 
 .portfolio-item img{
-	border-radius: 2%;
+	/*border-radius: 2%;*/
 }
 .portfolio-item .hover-bg {
 	/*height: 260px;*/

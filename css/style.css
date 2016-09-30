@@ -164,6 +164,10 @@ hr {
 
 /*Portfolio Item View*/
 
+.col-md-4 {
+	padding: 5px;
+}
+
 .portfolio-text {
 	padding-left: 20%;
 	padding-right: 20%;
@@ -258,7 +262,7 @@ header p {
 	color: #c3c3c3;
 }
 #works-section .section-title hr {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4e9e0+0,ffffff+100&amp;1+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(164,233,224,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(164,233,224,1)), color-stop(100%, rgba(255,255,255,0))); /* Chrome,Safari4+ */
@@ -326,16 +330,8 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
-.portfolio-item {
-	margin-bottom: 30px;
 
-}
-
-.portfolio-item img{
-	/*border-radius: 2%;*/
-}
 .portfolio-item .hover-bg {
-	/*height: 260px;*/
 	overflow: hidden;
 	position: relative;
 }
@@ -412,6 +408,7 @@ ol.type li a:hover {
 	background-color: #222222;
 	color: #ddd;
 	padding: 15px 0 10px 0;
+	top: 90%;
 }
 #footer p {
 	font-size: 13px;

@@ -75,6 +75,11 @@ hr {
 	border-color: rgba(255,255,255,0.4);
 }
 /* Navigation */
+
+.navbar {
+	margin-bottom: 0px;
+}
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -125,39 +130,24 @@ hr {
 
 /*About Section*/
 
+
+.more {
+	display: none;
+}
+
 .about-image{
-  		/*filter: brightness(0.5);*/
+	/*height: 200px;*/
 }
-.about-container {
-	background-image: url("../img/me/keenan2.jpg");
-	background-size: cover;
-	/*position: relative;*/
-	padding-bottom: 20%;
-}
+
 .about-text {
-	padding: 5%;
+	/*padding-left: 0px;*/
 }
 
 .about-text p {
 	text-align: left;
 	color: #585858;
-	padding: 2%;
-	font-size: 20px;
-	/*background-color: #000000;*/
-/*
-
-	-webkit-filter: brightness(2);
-  	-moz-filter: brightness(2);
-  	-o-filter: brightness(2);
-  	-ms-filter: brightness(2);
-  	filter: brightness(2);*/
-
-}
-
-.resume{
-	padding: 2%;
-	position: relative;
-	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 /*==============================*/
@@ -175,8 +165,12 @@ hr {
 	text-align: center;
 }
 
+.portfolio-text h1 {
+	font-size: 64px;
+	font-weight: bold;
+}
 .portfolio-text h2 {
-	padding-bottom: 10%;
+	padding-bottom: 2%;
 }
 
 .portfolio-text img {
@@ -192,12 +186,18 @@ hr {
 }
 
 .item-links {
-	padding-top: 5%;
+	/*padding-top: 5%;*/
 }
 
 .item-links ul li {
 	display: inline-block;
 	margin: 0 20px;
+}
+
+.item-links ul li a {
+	border: none;
+	border-radius: 2px;
+	background-color: #B2EBF2;
 }
 
 /*===================================*/
@@ -334,13 +334,14 @@ ol.type li a:hover {
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
+
 }
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0.66);
+	background: rgba(0, 0, 0, 0.72);
 	padding: 25% 0;
 	height: 100%;
 	width: 100%;
@@ -352,6 +353,7 @@ ol.type li a:hover {
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
+	font-size: 32px;
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;

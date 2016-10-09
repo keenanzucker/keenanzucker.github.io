@@ -100,7 +100,6 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #878d8f;
-	/*font-size: 12px;*/
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
@@ -126,10 +125,7 @@ hr {
 }
 
 /*==================*/
-
-
 /*About Section*/
-
 
 .more {
 	display: none;
@@ -151,7 +147,6 @@ hr {
 }
 
 /*==============================*/
-
 /*Portfolio Item View*/
 
 .col-md-4 {
@@ -199,58 +194,6 @@ hr {
 	border-radius: 2px;
 	background-color: #B2EBF2;
 }
-
-/*===================================*/
-
-/*header {
-	background: url(../img/winter.jpg) no-repeat top center;
-	background-size: cover;
-	color: #cfcfcf;
-	position: relative;
-	height: 100%;
-}
-header p {
-	color: #222;
-	font-size: 18px;
-	margin-bottom: 60px;
-	display: inline-block;
-	background-color: rgba(255,255,255,0.5);
-	padding: 0 4px;
-	border-radius : 2px;
-}
-.intro-text {
-	position: relative;
-	padding-top: 250px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 170px;
-}
-.intro-text H1 {
-	font-size: 60px;
-	text-transform: uppercase;
-	color: #222;
-	font-weight: 300;
-}
-.color {
-	color: #1fb9b1;
-	font-weight: 700;
-	text-shadow: 5px 0 5px #fff;
-}
-.btn-default {
-	color: #333;
-	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(255,255,255,0.8);
-	border: 0;
-	margin: 0 8px;
-	font-size: 18px;
-	transition: all 0.5s;
-}
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	background-color: #86E2D5;
-	color: #fff;
-}*/
-
-
 
 /* Gallery Section 
 ==============================*/
